@@ -1,0 +1,90 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.navbar{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: aqua;
+    position:sticky;
+}
+.navbar ul{ 
+    display: flex;
+    list-style:none;
+    margin: 20px 0px;
+}
+.navbar ul li a{
+    font-family: 'Franklin Gothic Medium';
+    font-size: 1.1rem;
+    font font-weight:bold;
+}
+.navbar ul li a{
+    text-decoration:none;
+    color: black;
+    padding: 8px 25px;
+    transition: all cubic-bezier(0.075, 0.82, 0.165, 1);
+}
+.navbar ul li a:hover{
+    background-color: cornsilk;
+    color: black;
+    box-shadow: 0 0 10 wheat;
+}
+.home {
+    margin-inline: ;
+ 
+    background-color:rgb(160, 204, 218);
+    
+}
+.block{
+    float:left;
+    width:50%;
+    border:10px solid black;
+    background-color:rgb(48, 129, 129) ;
+    padding:50px;
+    
+}
+.about{
+background-color: rgb(188, 221, 219);
+margin:1%;
+}
+.block2{
+  background-color:aquamarine;
+  font-style: italic;
+}
+.block1{
+    background-color:rgb(198, 233, 221);
+     font-style:italic ;
+}
+.contact{
+    
+    font-size: 50px;
+    display: block;
+  
+    
+    background-color: rgb(60, 221, 186);
+    position:sticky;
+}
+
+  
+.contact ul li a{
+    font-family: 'Franklin Gothic Medium';
+    font-size: 2.3rem;
+    font font-weight:bold;
+}
+.contact ul li a{
+    text-decoration:none;
+    color: black;
+    padding: 8px 50px;
+    transition: all cubic-bezier(0.075, 0.82, 0.165, 1);
+}
+.contact ul li a:hover{
+    background-color: cornsilk;
+    color: black;
+    box-shadow: 0 0 10 wheat;
+}
+.skill{
+    background-color: mediumaquamarine;
+    font-size: 50px;
+}
